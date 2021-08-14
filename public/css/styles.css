@@ -1,0 +1,41 @@
+header {
+    margin-top: 16px;
+    margin-bottom: 46px;
+}
+
+header h1 {
+    font-size: 64px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+body {
+    color: #333;
+    font-family: Arial, serif;
+    max-width: 650px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+body img {
+    width: 250px;
+}
+
+footer {
+    /* position: absolute;
+    bottom: 0; */
+    color: #888;
+    border-top: 1px solid #eee;
+    margin-top: 16px;
+    padding: 16px;
+}
